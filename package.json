@@ -1,0 +1,30 @@
+{
+  "name": "alexa-apiai-lambda",
+  "version": "1.0.0",
+  "description": "Connect Alexa to Api.Ai using AWS Lambda Function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Glider/Alexa-Apiai-LambdaFunction.git"
+  },
+  "keywords": [
+    "Alexa",
+    "Apiai",
+    "Lambda"
+  ],
+  "author": "Glider",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Glider/Alexa-Apiai-LambdaFunction/issues"
+  },
+  "homepage": "https://github.com/Glider/Alexa-Apiai-LambdaFunction#readme",
+  "dependencies": {
+    "alexa-app": "^4.0.0",
+    "alexa-sdk": "^1.0.9",
+    "apiai": "^4.0.2",
+    "aws-sdk": "^2.49.0"
+  }
+}

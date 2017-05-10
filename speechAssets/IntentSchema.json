@@ -1,0 +1,52 @@
+{
+  "intents": [
+    {
+      "intent": "ContactUs"
+    },
+    {
+      "intent": "LoaRemainingDays",
+      "slots": [
+        {
+          "name": "datetimeslot",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    },
+    {
+      "intent": "LoaApproveRequest"
+    },
+    {
+      "intent": "DefaultWelcome"
+    },
+    {
+      "intent": "AboutCompany"
+    },
+    {
+      "intent": "ConnectHuman"
+    },
+    {
+      "intent": "LoaCancelRequest"
+    },
+    {
+      "intent": "LoaCreateRequest",
+      "slots": [
+        {
+          "name": "type_leaveslot",
+          "type": "TYPE_LEAVE"
+        },
+        {
+          "name": "dateslot",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "dateperiodslot",
+          "type": "AMAZON.DURATION"
+        },
+        {
+          "name": "datetimeslot",
+          "type": "AMAZON.DATE"
+        }
+      ]
+    }
+  ]
+}

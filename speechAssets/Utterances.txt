@@ -1,0 +1,78 @@
+ContactUs contact developers
+ContactUs contact info
+ContactUs contact your creators
+ContactUs find contacts of your creators
+ContactUs how can i contact your developers
+ContactUs how do i contact your company
+ContactUs i want to contact your creator
+ContactUs tell me your address
+ContactUs what is your contact info
+ContactUs what is your developers contact information
+LoaRemainingDays How many leave of absence days i still have
+LoaRemainingDays currently leave of absence days
+LoaRemainingDays can you give me the absence days do i still have
+LoaRemainingDays give me my leave of absence day
+LoaRemainingDays give me my leave of absence days
+LoaRemainingDays remaining leave of absence day
+LoaApproveRequest approved
+LoaApproveRequest confirmed
+LoaApproveRequest yes confirmed
+LoaApproveRequest yes request can be approved
+LoaApproveRequest yes request can be send to my supervisor
+LoaApproveRequest yes request can be approved
+LoaApproveRequest yes request can be send to my supervisor
+DefaultWelcome hi
+DefaultWelcome hello
+AboutCompany i need to know more about developers in your company
+AboutCompany tell me about your developers
+AboutCompany tell me more about the company that invented you
+AboutCompany tell me more about your developers at your company
+AboutCompany what about coderp
+AboutCompany what do your developers do
+AboutCompany what does your company create
+AboutCompany what does your company develop
+AboutCompany what does your company team work at
+AboutCompany what is coderp corporation
+ConnectHuman can i talk to a real person
+ConnectHuman can someone from a real team help me
+ConnectHuman chat with a person
+ConnectHuman connect me to support team
+ConnectHuman connect me with a live agent
+ConnectHuman it doesn not help
+ConnectHuman it doesn not help me i want to ask a real person
+LoaCancelRequest how do i change my leave absence request
+LoaCancelRequest how do i update my return date from leave
+LoaCancelRequest i give you a wrong day
+LoaCancelRequest i given you a wrong day
+LoaCancelRequest i want to cancel my previous absence request
+LoaCreateRequest {BeginDate} i am not feeling well
+LoaCreateRequest {BeginDate} to {EndDate}
+LoaCreateRequest {BeginDate} i am not feeling well so I'll be at home
+LoaCreateRequest {BeginDate} to {EndDate}
+LoaCreateRequest {BeginDate} I'll not be in office
+LoaCreateRequest {BeginDate} I'll be return from leave
+LoaCreateRequest I'll be on leave for {LeaveType}
+LoaCreateRequest I'll be on leave from {BeginDate} eight to {EndDate}
+LoaCreateRequest I'll be on leave from {BeginDate} to {EndDate}
+LoaCreateRequest create a new absence for me
+LoaCreateRequest from {BeginDate} to {BeginDate}
+LoaCreateRequest i am not feeling good
+LoaCreateRequest i am not feeling well
+LoaCreateRequest i m little bit {LeaveType}
+LoaCreateRequest i m little bite {LeaveType}
+LoaCreateRequest i m not feeling good
+LoaCreateRequest i m not feeling well {BeginDate}
+LoaCreateRequest i need to open a request for leave
+LoaCreateRequest i will be absent for {LeaveType}
+LoaCreateRequest i will return from leave {EndDate}
+LoaCreateRequest i'm not feeling good
+LoaCreateRequest i'm not feeling well
+LoaCreateRequest say to office that I'll be at my home {BeginDate}
+LoaCreateRequest say to office that i am {LeaveType} {BeginDate}
+LoaCreateRequest say to office that i will be on leave for vacation from {BeginDate} to {EndDate}
+LoaCreateRequest tell the office i am absent
+LoaCreateRequest tell the office i am {LeaveType}
+LoaCreateRequest tell the office i got an {LeaveType}
+LoaCreateRequest yes from {BeginDate} to {EndDate}
+LoaCreateRequest yes from {BeginDate} to {EndDate}
+LoaCreateRequest yes {BeginDate} to {EndDate}
