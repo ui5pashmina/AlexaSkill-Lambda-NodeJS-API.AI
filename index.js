@@ -29,7 +29,7 @@ var handlers = {
         //setAlexaSessionId(self.event.session.sessionId);
 
         //Prepare request for API.AI
-        ApiAi.eventRequest({name: 'WELCOME'}, {sessionId: alexaSessionId})
+        ApiAi.eventRequest({name: 'APIAI_CONNECTED'}, {sessionId: alexaSessionId})
             .on('response', function(response){
                 var speech = response.result.fulfillment.speech;    
                 self.emit(':ask', speech, speech);
