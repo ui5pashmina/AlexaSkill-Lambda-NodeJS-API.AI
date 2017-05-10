@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Glider/Alexa-Apiai-LambdaFunction.git"
+    "url": "https://github.com/ui5pashmina/AlexaSkill-Lambda-NodeJS-API.AI"
   },
   "keywords": [
     "Alexa",
@@ -18,9 +18,9 @@
   "author": "Glider",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Glider/Alexa-Apiai-LambdaFunction/issues"
+    "url": "https://github.com/ui5pashmina/AlexaSkill-Lambda-NodeJS-API.AI/issues"
   },
-  "homepage": "https://github.com/Glider/Alexa-Apiai-LambdaFunction#readme",
+  "homepage": "https://github.com/ui5pashmina/AlexaSkill-Lambda-NodeJS-API.AI#readme",
   "dependencies": {
     "alexa-app": "^4.0.0",
     "alexa-sdk": "^1.0.9",
