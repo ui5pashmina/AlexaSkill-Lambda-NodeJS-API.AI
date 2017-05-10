@@ -20,7 +20,7 @@ Connect Amazon Alexa to Api.ai using an AWS Lambda Function.
 {
   "intents": [
     {
-      "intent": "Alexa.Intent",
+      "intent": "AlexaIntent",
       "slots": [
         {
           "name": "Text",
@@ -47,8 +47,8 @@ Connect Amazon Alexa to Api.ai using an AWS Lambda Function.
 * Use the next **Sample Utterances**:
 
 	```
-	ApiIntent {test|Text}
-	ApiIntent {hello test|Text}
+	AlexaIntent {test|Text}
+	AlexaIntent {hello test|Text}
 	```
 * Copy the **Alexa App Id** (upper-left corner) to use it later in the [Final Configuration section](#final-configuration). 
 
