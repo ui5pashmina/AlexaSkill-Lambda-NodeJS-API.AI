@@ -70,9 +70,9 @@ Connect Amazon Alexa to Api.ai using an AWS Lambda Function.
 	* Add **`FALLBACK`** as a trigger Event.
 	* Add or modify any text responses which will be triggered if a user's input is not matched by any of the regular intents or enabled domains.
 
-* Create a new Intent called **Default Bye Event**:
-	* Add **`BYE`** as a trigger Event.
-	* Add or modify any text responses which will be triggered as a goodbye response.
+* Create a new Intent called **Ask.Alexa**:
+	* Add **`ALEXA`** as a trigger Event.
+	* Add or modify any text responses which will be triggered if a user's input match by the intent schema uploaded while creating Alexa Interaction Model.
 
 #### Agent Settings
 * Select the gear icon (upper-left corner) and go to **Settings**.
@@ -118,6 +118,7 @@ Connect Amazon Alexa to Api.ai using an AWS Lambda Function.
 	```
 	const ALEXA_APP_ID = 'amzn1.ask.skill.app.your-skill-id';
 	const APIAI_DEVELOPER_ACCESS_TOKEN = 'your-apiai-developer-access-token';
+	const APIAI_CLIENT_ACCESS_TOKEN = 'your-apiai-clien-access-token';
 	```
 * Go to [Alexa Manager](http://alexa.amazon.com/spa/index.html#settings) and change the language of your device to **English (United States)** inside the Settings menu.
 
