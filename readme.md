@@ -71,7 +71,7 @@ Connect Amazon Alexa to Api.ai using an AWS Lambda Function.
 	* Add or modify any text responses which will be triggered if a user's input is not matched by any of the regular intents or enabled domains.
 
 * Create a new Intent called **Alexa.Intent**:
-	* Add **`ALEXA`** as a trigger Event.
+	* Add **`APIAI_CONNECTED`** as a trigger Event.
 	* Add or modify any text responses which will be triggered if a user's input match by the intent schema uploaded while creating Alexa Interaction Model.
 
 #### Agent Settings
