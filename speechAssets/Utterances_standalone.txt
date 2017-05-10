@@ -1,2 +1,0 @@
-ApiIntent {test|Text}
-ApiIntent {hello test|Text}
