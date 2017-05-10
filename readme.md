@@ -103,8 +103,7 @@ Connect Amazon Alexa to Api.ai using an AWS Lambda Function.
 	##### Lambda function handler and role
 	* Set your handler and role as follows:
 		* Keep Handler as ‘index.handler’.
-		* Drop down the *Role* menu and select **“Create a new custom role”**. This will launch a new tab in the IAM Management Console. (Note: if you have already used Lambda you may already have a `lambda_basic_execution` role created that you can use.)
-		* You will be asked to set up your Identity and Access Management or “IAM” role if you have not done so. AWS Identity and Access Management (IAM) enables you to securely control access to AWS services and resources for your users. Using IAM, you can create and manage AWS users and groups, and use permissions to allow and deny their access to AWS resources. We need to create a role that allows our skill to invoke this Lambda function. In the Role Summary section, select "Create a new IAM Role" from the IAM Role dropdown menu. The Role Name and policy document will automatically populate.
+		* Drop down the *Role* menu and select **“Create a new custom role”**.
 		* Select **“Allow”** in the lower right corner and you will be returned to your Lambda function.
 	* Keep the Advanced settings as default and select **‘Next’**.
 
