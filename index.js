@@ -41,21 +41,29 @@ var handlers = {
             .end();
     },
 
-    'LoaCreateRequest': function(){
+    'AlexaIntent': function(){
         
-        var SlotType  = this.event.request.intent.slots.LeaveType; 
-        var LeaveType = SlotType.value.toLowerCase();
+        var self = this;
+        var text = self.event.request.intent.slots.Text.value;
 
-        ApiAi.textRequest('', {sessionId: alexaSessionId}) // <-- request input text from Alexa intent should be passed
-            .on('response', function(response){
-                var speech = response.result.fulfillment.speech;
-                this.emit(':ask', speech, speech);
-            })
-            .on('error', function(error){
-                console.log(error.message);
-                this.emit(':tell', error.message);
-            })
-            .end();
+        if (text) {
+            ApiAi.textRequest(text, {sessionId: alexaSessionId})
+                .on('response', function (response) {
+                    var speech = response.result.fulfillment.speech;
+                    if (isResponseIncompleted(response)) {
+                        self.emit(':ask', speech, speech);
+                    } else {
+                        self.emit(':tell', speech);
+                    }
+                })
+                .on('error', function (error) {
+                    console.error(error.message);
+                    self.emit(':tell', error.message);
+                })
+                .end();
+        } else {
+            self.emit('Unhandled');
+        }
     },
 
     'AMAZON.CancelIntent': function () {
