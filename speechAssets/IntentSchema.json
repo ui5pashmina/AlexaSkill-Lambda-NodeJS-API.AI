@@ -1,52 +1,22 @@
 {
   "intents": [
     {
-      "intent": "ContactUs"
-    },
-    {
-      "intent": "LoaRemainingDays",
+      "intent": "AlexaIntent",
       "slots": [
         {
-          "name": "datetimeslot",
-          "type": "AMAZON.DATE"
+          "name": "Text",
+          "type": "AMAZON.LITERAL"
         }
       ]
     },
     {
-      "intent": "LoaApproveRequest"
+      "intent": "AMAZON.CancelIntent"
     },
     {
-      "intent": "DefaultWelcome"
+      "intent": "AMAZON.HelpIntent"
     },
     {
-      "intent": "AboutCompany"
-    },
-    {
-      "intent": "ConnectHuman"
-    },
-    {
-      "intent": "LoaCancelRequest"
-    },
-    {
-      "intent": "LoaCreateRequest",
-      "slots": [
-        {
-          "name": "type_leaveslot",
-          "type": "TYPE_LEAVE"
-        },
-        {
-          "name": "dateslot",
-          "type": "AMAZON.DATE"
-        },
-        {
-          "name": "dateperiodslot",
-          "type": "AMAZON.DURATION"
-        },
-        {
-          "name": "datetimeslot",
-          "type": "AMAZON.DATE"
-        }
-      ]
+      "intent": "AMAZON.StopIntent"
     }
   ]
 }
