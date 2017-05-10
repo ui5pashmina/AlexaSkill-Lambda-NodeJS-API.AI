@@ -1,9 +1,9 @@
 'use strict';
 
 // Declare Access Token for Alexa Skill and API.AI
-const ALEXA_APP_ID                  = "amzn1.ask.skill.e476c6a9-be46-4768-a095-086f00d03a74";
-const APIAI_CLIENT_ACCESS_TOKEN     = "3486174dca304f579fab42ad395927f3";
-const APIAI_DEVELOPER_ACCESS_TOKEN  = "8c8585d0089e45a39b95396215bb1cbb";
+const ALEXA_APP_ID                  = "amzn1.ask.skill.app.your-skill-id";
+const APIAI_CLIENT_ACCESS_TOKEN     = "your-apiai-client-access-token";
+const APIAI_DEVELOPER_ACCESS_TOKEN  = "your-apiai-developer-access-token";
 
 // Declare the usage of Alexa SDK and API.AI SDK
 var AlexaSdk    = require('alexa-sdk');
@@ -15,7 +15,7 @@ var alexa       = require("alexa-app");
 var skill_name = "AlexaApiAi";
 
 // Generate Alexa Session ID
-const alexaSessionId = '1234';
+const alexaSessionId = '<secret_session>';
 
 // Initialize request with API AI Client Token 
 var ApiAi = new ApiAiSdk(APIAI_DEVELOPER_ACCESS_TOKEN);
