@@ -95,10 +95,6 @@ Connect Amazon Alexa to Api.ai using an AWS Lambda Function.
 #### Configure function
 * Enter a **Name** and choose **Node.js 6.x** as the *Runtime*.
 
-	##### Lambda function code
-	* [**Download the `AlexaApiAiBridge.zip` file**](https://github.com/Gnzlt/AlexaApiAiBridge/releases/latest) from the latest release of this repo.
-	* Drop down the *Code entry type* menu and select **Upload a .ZIP file**.
-	* Click on the **Function package** upload button and choose the file you just downloaded.
 	
 	##### Lambda function handler and role
 	* Set your handler and role as follows:
